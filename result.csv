@@ -1,0 +1,5 @@
+region,season,provisional,working_factories,installed_crushing_capacity,cane_crushed,sugar_production,recovery_rate,effective_recovery_rate,production_per_factory,cane_per_factory,recovery_gap,mathematical_prediction,random_forest_prediction,ann_prediction,baseline_absolute_error,rf_absolute_error,ann_absolute_error,improved_recovery_rate,improved_sugar_production,additional_sugar_production,production_improvement_percentage
+Tamil Nadu,2016-17,False,40.0,28.61,119.7,10.67,8.92,8.913952,0.26675,2.9925,-0.006048,10.67724,10.651572,10.621696,0.00724,0.018428,0.048304,9.366,11.211102,0.533862,5.0
+Tamil Nadu,2017-18,False,37.0,28.61,81.43,7.0,8.64,8.59634,0.189189,2.200811,-0.04366,7.035552,7.059641,7.106781,0.035552,0.059641,0.106781,9.072,7.38733,0.351778,5.0
+All India,2016-17,False,493.0,338.59,1940.78,202.54,10.44,10.43601,0.410832,3.936673,-0.00399,202.617432,202.322331,202.49759,0.077432,0.217669,0.042411,10.962,212.748304,10.130872,5.0
+All India,2017-18,True,525.0,,3023.0,304.71,10.74,10.079722,0.5804,5.758095,-0.660278,324.6702,325.500813,324.68207,19.9602,20.790813,19.972068,11.277,340.90371,16.23351,5.0

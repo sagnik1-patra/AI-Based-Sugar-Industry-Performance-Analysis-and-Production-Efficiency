@@ -1,0 +1,15 @@
+region,reference_season,scenario,working_factories,cane_crushed,recovery_rate,reference_reported_production,reference_calculated_production,data_type,mathematical_prediction,ais_prediction,random_forest_prediction,ann_prediction,ais_expected_change,ais_improvement_percentage,formula_improvement_percentage,performance_category,intervention_budget_used,within_ais_budget
+Tamil Nadu,2017-18,Current Conditions,37,81.43,8.64,7.0,7.035552,Hypothetical Scenario,7.035552,7.035552,7.0591642,7.106781,-0.0,-0.0,0.0,Stable,0.0,True
+Tamil Nadu,2017-18,Recovery Improvement,37,81.43,9.072,7.0,7.035552,Hypothetical Scenario,7.3873296,7.3873296,7.39605815,7.463623,0.3517776,5.0,5.0,Moderate Improvement,1.0,True
+Tamil Nadu,2017-18,Increased Cane Availability,37,89.573,8.64,7.0,7.035552,Hypothetical Scenario,7.7391072,7.7391072,7.76515731,7.8039927,0.7035552,10.0,10.0,High Improvement,1.0,True
+Tamil Nadu,2017-18,Factory Expansion,38,85.5015,8.64,7.0,7.035552,Hypothetical Scenario,7.3873296,7.3873296,7.40234879,7.4684753,0.3517776,5.0,5.0,Moderate Improvement,1.04054054,True
+Tamil Nadu,2017-18,Combined Improvement,38,89.573,9.072,7.0,7.035552,Hypothetical Scenario,8.12606256,8.12606256,8.14878239,8.173279,1.09051056,15.5,15.5,High Improvement,2.54054054,False
+Tamil Nadu,2017-18,Reduced Cane Availability,37,73.287,8.64,7.0,7.035552,Hypothetical Scenario,6.3319968,6.3319968,6.35922999,6.4104085,-0.7035552,-10.0,-10.0,Production Decline,0.0,True
+Tamil Nadu,2017-18,AIS Optimized Scenario,37,89.573,8.85599997,7.0,7.035552,AIS Hypothetical Optimization,7.93258485,7.93258485,7.96376297,7.9600525,0.89703285,12.74999962,12.74999962,High Improvement,1.49999993,True
+All India,2017-18,Current Conditions,525,3023.0,10.74,304.71,324.6702,Hypothetical Scenario,324.6702,324.6702,325.50081253,324.68207,0.0,0.0,0.0,Stable,0.0,True
+All India,2017-18,Recovery Improvement,525,3023.0,11.277,304.71,324.6702,Hypothetical Scenario,340.90371,340.90371,341.57888824,340.52023,16.23351,5.0,5.0,Moderate Improvement,1.0,True
+All India,2017-18,Increased Cane Availability,525,3325.3,10.74,304.71,324.6702,Hypothetical Scenario,357.13722,357.13722,357.06198563,357.12622,32.46702,10.0,10.0,Moderate Improvement,1.0,True
+All India,2017-18,Factory Expansion,551,3174.15,10.74,304.71,324.6702,Hypothetical Scenario,340.90371,340.90371,342.94907196,341.40594,16.23351,5.0,5.0,Moderate Improvement,1.49047619,True
+All India,2017-18,Combined Improvement,551,3325.3,11.277,304.71,324.6702,Hypothetical Scenario,374.994081,374.994081,376.83910263,374.297,50.323881,15.5,15.5,High Improvement,2.99047619,False
+All India,2017-18,Reduced Cane Availability,525,2720.7,10.74,304.71,324.6702,Hypothetical Scenario,292.20318,292.20318,292.52379425,292.27078,-32.46702,-10.0,-10.0,Production Decline,0.0,True
+All India,2017-18,AIS Optimized Scenario,525,3325.29982311,11.00850031,304.71,324.6702,AIS Hypothetical Optimization,366.06564148,366.06564148,364.45646042,366.25604,41.39544148,12.74999722,12.74999722,High Improvement,1.5,True

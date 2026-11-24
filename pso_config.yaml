@@ -1,0 +1,81 @@
+project:
+  name: PSO-Based Sugar Industry Performance Analysis and Production Efficiency
+  version: 1.0.0
+  algorithm: Particle Swarm Optimization
+  created_at: '2026-11-24T11:52:50.080031'
+dataset:
+  filename: performance_of_sugar_industry_sugar_season_2019.csv
+  path: C:\Users\sagni\Downloads\AI-Based Sugar Industry Performance Analysis and
+    Production Efficiency\performance_of_sugar_industry_sugar_season_2019.csv
+  original_shape:
+  - 5
+  - 6
+  processed_observations: 4
+  simulated_samples: 6000
+  features:
+  - working_factories
+  - cane_crushed
+  - recovery_rate
+  polynomial_features:
+  - working_factories
+  - cane_crushed
+  - recovery_rate
+  - factories_squared
+  - cane_squared
+  - recovery_squared
+  - factories_x_cane
+  - factories_x_recovery
+  - cane_x_recovery
+  target: sugar_production
+  target_unit: Lakh Metric Tonnes
+  training_data_type: Mathematical Simulation
+pso_parameters:
+  swarm_size: 60
+  iterations: 200
+  maximum_inertia: 0.9
+  minimum_inertia: 0.4
+  cognitive_coefficient: 1.8
+  social_coefficient: 1.8
+  velocity_limit: 0.2
+  regularization: 1.0e-08
+  particle_dimensions: 10
+  initialization: Least-squares warm start
+  random_seed: 42
+  objective_evaluations: 12060
+training:
+  training_samples: 3840
+  validation_samples: 960
+  testing_samples: 1200
+  original_observations: 4
+  target_mean: 134.2112832007667
+  target_std: 141.13429209433542
+production_optimization:
+  maximum_factory_change: 0.05
+  maximum_cane_change: 0.1
+  maximum_recovery_change: 0.05
+  maximum_recovery_rate: 13.0
+  intervention_budget: 1.5
+  optimization_iterations: 150
+  maximum_relative_cane_per_factory: 1.1
+  objective: Maximize formula-based sugar production under hypothetical intervention
+    and processing constraints
+output_files:
+  h5: pso_sugar_production_model.h5
+  pkl: pso_sugar_production_model.pkl
+  yaml: pso_config.yaml
+  json: pso_metrics.json
+  prefix: pso_
+limitations:
+- The original dataset contains four region-season observations.
+- Training data is mathematically simulated.
+- Original observations are not independent external validation.
+- Tamil Nadu is included in All India figures.
+- All India 2017-18 figures are provisional.
+- PSO regression uses least-squares warm-start initialization.
+- Estimation score is 100 minus MAPE, not classification accuracy.
+- Production optimization constraints are hypothetical.
+- The mathematical formula exactly defines simulated production.
+- PSO and AIS may use different numbers of objective evaluations.
+- Equal iteration counts do not establish equal computational budgets.
+- Scenario improvements are not verified industrial improvements.
+- Some comparison scenarios may exceed the intervention budget.

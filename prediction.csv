@@ -1,0 +1,13 @@
+region,reference_season,scenario,working_factories,cane_crushed,recovery_rate,reference_reported_production,reference_calculated_production,data_type,mathematical_prediction,random_forest_prediction,ann_prediction,ensemble_prediction,expected_production_change,expected_improvement_percentage,performance_category
+Tamil Nadu,2017-18,Current Conditions,37,81.43,8.64,7.0,7.035552,Hypothetical Simulation,7.035552,7.059641,7.106781,7.083211,0.0,0.0,Stable
+Tamil Nadu,2017-18,Recovery Improvement,37,81.43,9.072,7.0,7.035552,Hypothetical Simulation,7.38733,7.396269,7.463623,7.429946,0.351778,5.0,Moderate Improvement
+Tamil Nadu,2017-18,Increased Cane Availability,37,89.573,8.64,7.0,7.035552,Hypothetical Simulation,7.739107,7.763815,7.803993,7.783904,0.703555,10.0,High Improvement
+Tamil Nadu,2017-18,Factory Expansion,39,85.5015,8.64,7.0,7.035552,Hypothetical Simulation,7.38733,7.393246,7.481575,7.437411,0.351778,5.0,Moderate Improvement
+Tamil Nadu,2017-18,Combined Improvement,39,89.573,9.072,7.0,7.035552,Hypothetical Simulation,8.126063,8.151672,8.178452,8.165062,1.090511,15.5,High Improvement
+Tamil Nadu,2017-18,Reduced Cane Availability,37,73.287,8.64,7.0,7.035552,Hypothetical Simulation,6.331997,6.359271,6.410408,6.384839,-0.703555,-10.0,Production Decline
+All India,2017-18,Current Conditions,525,3023.0,10.74,304.71,324.6702,Hypothetical Simulation,324.6702,325.500813,324.68207,325.09144,0.0,0.0,Stable
+All India,2017-18,Recovery Improvement,525,3023.0,11.277,304.71,324.6702,Hypothetical Simulation,340.90371,341.578888,340.52023,341.049561,16.23351,5.0,Moderate Improvement
+All India,2017-18,Increased Cane Availability,525,3325.3,10.74,304.71,324.6702,Hypothetical Simulation,357.13722,357.061986,357.12622,357.094103,32.46702,10.0,Moderate Improvement
+All India,2017-18,Factory Expansion,551,3174.15,10.74,304.71,324.6702,Hypothetical Simulation,340.90371,342.949072,341.40594,342.177508,16.23351,5.0,Moderate Improvement
+All India,2017-18,Combined Improvement,551,3325.3,11.277,304.71,324.6702,Hypothetical Simulation,374.994081,376.839103,374.29697,375.568035,50.323881,15.5,High Improvement
+All India,2017-18,Reduced Cane Availability,525,2720.7,10.74,304.71,324.6702,Hypothetical Simulation,292.20318,292.523794,292.27078,292.397288,-32.46702,-10.0,Production Decline

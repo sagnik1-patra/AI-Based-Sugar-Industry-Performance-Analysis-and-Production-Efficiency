@@ -1,0 +1,78 @@
+project:
+  name: AIS-Based Sugar Industry Performance Analysis and Production Efficiency
+  version: 1.0.0
+  algorithm: Artificial Immune System
+  optimization_method: Clonal Selection Algorithm
+  created_at: '2026-11-24T11:50:52.927827'
+dataset:
+  filename: performance_of_sugar_industry_sugar_season_2019.csv
+  path: C:\Users\sagni\Downloads\AI-Based Sugar Industry Performance Analysis and
+    Production Efficiency\performance_of_sugar_industry_sugar_season_2019.csv
+  original_shape:
+  - 5
+  - 6
+  processed_observations: 4
+  simulated_samples: 6000
+  features:
+  - working_factories
+  - cane_crushed
+  - recovery_rate
+  polynomial_features:
+  - working_factories
+  - cane_crushed
+  - recovery_rate
+  - factories_squared
+  - cane_squared
+  - recovery_squared
+  - factories_x_cane
+  - factories_x_recovery
+  - cane_x_recovery
+  target: sugar_production
+  target_unit: Lakh Metric Tonnes
+  training_data_type: Mathematical Simulation
+ais_parameters:
+  population_size: 60
+  generations: 200
+  selected_antibodies: 12
+  clone_factor: 8
+  mutation_rate: 0.15
+  replacement_rate: 0.15
+  regularization: 1.0e-08
+  antibody_dimensions: 10
+  initialization: Least-squares warm start
+  random_seed: 42
+training:
+  training_samples: 3840
+  validation_samples: 960
+  testing_samples: 1200
+  original_observations: 4
+  target_mean: 134.2112832007667
+  target_std: 141.13429209433542
+production_optimization:
+  maximum_factory_change: 0.05
+  maximum_cane_change: 0.1
+  maximum_recovery_change: 0.05
+  maximum_recovery_rate: 13.0
+  intervention_budget: 1.5
+  optimization_generations: 150
+  maximum_relative_cane_per_factory: 1.1
+  objective: Maximize formula-based sugar production under hypothetical intervention
+    and processing constraints
+output_files:
+  h5: ais_sugar_production_model.h5
+  pkl: ais_sugar_production_model.pkl
+  yaml: ais_config.yaml
+  json: ais_metrics.json
+  prefix: ais_
+limitations:
+- The original dataset contains four region-season observations.
+- Training data is mathematically simulated.
+- Original observations are not independent external validation.
+- Tamil Nadu is included in All India figures.
+- The All India 2017-18 figures are provisional.
+- AIS regression uses least-squares warm-start initialization.
+- Estimation score is 100 minus MAPE, not classification accuracy.
+- Optimization bounds and intervention budget are hypothetical.
+- The mathematical formula exactly defines simulated production.
+- AIS cannot establish real-world production improvements without additional data.
+- Unconstrained comparison scenarios may exceed the AIS intervention budget.
